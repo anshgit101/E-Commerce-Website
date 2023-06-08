@@ -70,18 +70,6 @@ Open the IIITOLX directory in your terminal and run
 5.  Add reply and delete option for replies also
 
 
- MOTIVATION
-===================
-
-When our group came to ken about the 'HackAthon2k20' we decided to make a web application that 
-would not only basically be a cognition opportunity for us BUT also something that would actually 
-leave our mark on the IIIT community and help the future generations of students who are yet to come here. 
-IIIT community for all intents and purposes is one driven by the students. Our seniors before us literally 
-had created the ever so helpful mess portal, Felicity website and many other things we can't even contemplate 
-living without. Since majority of our team mates were well versed in the ways of web development and rest kind 
-of were tyros in both android and web app development domain, we decided to create a web application 
-that would tackle a real life problem. This was the humble beginning of our project (^ v ^).
-
 
 
    
