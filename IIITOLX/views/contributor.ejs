@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/stylesheets/contributors.css">
+    <title>Buy and Sell</title>
+</head>
+<body>
+    <div class="mainbody">
+         <!-- navbar -->
+        <nav>
+            <div class="leftpart">
+                <div class="active-link">
+                    <a href="/items">Home</a>
+                </div>
+            </div>
+            <div class="rightpart">
+                <div>CONTRIBUTORS</div>
+            </div>
+        </nav>
+
+        <!-- grid section -->
+        <section>
+            <div class="block">
+                <div class="backgroundimage" style="background-image: url(/images/Ansh.jpg);"></div>
+                <div class="textlogocontainer">
+                    <div class="textcontainer">
+                        <div class="name">
+                            <p>ANSH KHANDELWAL</p>
+                        </div>
+                        <div class="info">
+                            <p>Skills: C, C++, Python, JS, Django, Postgresql, Html, Css</p>
+                            <p>Contirbution: Frontend</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <div class="backgroundimage" style="background-image: url(/images/greyblackbg.jpg);"></div>
+                <div class="textlogocontainer">
+                    <div class="logocontainer">
+                        <img src="/images/logos/devcamp.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <div class="backgroundimage" style="background-image: url(/images/Amar41.jpeg);"></div>
+                <div class="textlogocontainer">
+                    <div class="textcontainer">
+                        <div class="name">
+                            <p>AMAR GWARI</p>
+                        </div>
+                        <div class="info">
+                            <p>Skills: C, C++, Python, Html, Css</p>
+                            <p>Contirbution: Frontend</p>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <div class="backgroundimage" style="background-image: url(images/greyblackbg.jpg);"></div>
+                <div class="textlogocontainer">
+                    <div class="logocontainer">
+                        <img src="/images/logos/dailysmarty.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <div class="backgroundimage" style="background-image: url(/images/him1.png);"></div>
+                <div class="textlogocontainer">
+                    <div class="textcontainer">
+                        <div class="name">
+                            <p>HIM AGRAWAL</p>
+                        </div>
+                        <div class="info">
+                            <P>Skills: C, C++, Html, Css, JS, Node.js, Mongodb, Express.js</P>
+                            <p>Contribution: Backend & Frontend</p>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <div class="backgroundimage" style="background-image: url(/images/greyblackbg.jpg);"></div>
+                <div class="textlogocontainer">
+                    <div class="logocontainer">
+                        <img src="/images/logos/devtrunk.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <div class="backgroundimage" style="background-image: url(/images/Sinha1.jpg);"></div>
+                <div class="textlogocontainer">
+                    <div class="textcontainer">
+                        <div class="name"> 
+                            <p>ADITYA SINHA</p>
+                        </div>
+                        <div class="info">
+                            <p>SKills: C++, Python, Html, Css</p>
+                            <p>Contibution: Making contributors page responsive</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <div class="backgroundimage" style="background-image: url(/images/greyblackbg.jpg);"></div>
+                <div class="textlogocontainer">
+                    <div class="logocontainer">
+                        <img src="/images/logos/toastability.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <div class="backgroundimage" style="background-image: url(/images/Jaywant.jpg);"></div>
+                <div class="textlogocontainer">
+                    <div class="textcontainer">
+                        <div class="name">
+                            <p>JAYWANT PATEL</p>
+                        </div>
+                        <div class="info">
+                            <p>Skills: C, C++, Html, CSS</p>
+                            <p>Contirbution: Frontend</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>      
+
+    </div>
+</body>
+<script>
+    const myimage = document.querySelectorAll('.block');
+    myimage.forEach( x => {
+        x.addEventListener('mouseover', () => {
+            x.childNodes[1].classList.add('backimg');
+        });
+    });
+    myimage.forEach( x => {
+        x.addEventListener('mouseout', () => {
+            x.childNodes[1].classList.remove('backimg');
+        });
+    });
+</script>
+</html>

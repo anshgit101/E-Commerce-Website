@@ -1,0 +1,24 @@
+<%- include ("../partials/header") %>
+
+
+<div class="container">
+
+<h1 style="text-align: center;">Reply</h1>
+
+<div style="width: 30%; margin: 25px auto;">
+    <form action="/items/<%=item_id%>/comments/<%=comment_id%>/reply" method="POST">
+        <div class="form-group">
+          <input type="text" class="form-control" name="text" placeholder="Reply">
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary btn-lg btn-block">Submit</button>
+        </div>
+      </form>
+      <a href="/items/<%= item_id %>">Back</a>
+</div>
+  
+</div>
+
+
+
+<%- include ("../partials/footer") %>

@@ -1,0 +1,32 @@
+<%- include ("../partials/header") %>
+
+<div class="container">
+
+    <header class="jumbotron">
+        <div class="container">
+            <h1><i class="fas fa-tree"></i> IIIT-H BUY & SELL</h1>
+            <p>Thing's for Sale by IIITians</p>
+            <p>
+                <a class="btn btn-primary btn-large" href="/items/new"><i class="fas fa-plus-square"></i> Add New Item</a>
+            </p>
+        </div>
+    </header>
+
+<div class="row text-center" style="display:flex; flex-wrap:wrap;">
+    <% items.forEach(function(item){ %>
+    <div class="col-md-4 col-sm-6 col-xs-12 ">
+        <div class="thumbnail indexthumbnail">
+            <figure><img src="<%=item.image%>" ></figure>
+            <div class="caption">
+                <h4> <%= item.name %> </h4>
+                <p>
+                    <a href="/items/<%= item._id %>" class="btn btn-primary"><i class="fas fa-info-circle"></i> More Info</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <% }); %>
+</div>
+</div>
+
+<%- include ("../partials/footer") %>
